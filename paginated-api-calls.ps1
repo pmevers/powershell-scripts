@@ -1,5 +1,6 @@
 # This is an example of a powershell script to call a paginated API to store the output from an API call to a local CSV.
-# This reduces server load by calling the API in pages. It can also help reduce cloud expenses by performing frequent API calls locally and exporting a more structured format to the cloud. 
+# This reduces server load by calling the API in pages. It can also help reduce cloud expenses by performing frequent API calls locally and exporting more structured data
+to Azure or other cloud. 
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
